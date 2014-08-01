@@ -2,7 +2,7 @@
 # a. Create a function that takes a string and adds the phrase “Only in America!” to the end of it
 
 def america(product)
-	puts product + " made in America!"
+	puts product + " Only in America!"
 end
 
 america("jesus:")
