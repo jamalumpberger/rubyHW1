@@ -10,9 +10,12 @@ america("jesus:")
 # b. Create a function to find the maximum value in an array of numbers. For instance: [100,10,-1000]
 # should return 100.
 
-array = [1, 100, 5, 20, 10, 15, 500]
-x = array.reverse
-puts x[0]
+def funk(x)
+	max_funk = x.sort.reverse
+	puts max_funk[0]
+end
+
+funk([1, 10, 3, 400])
 
 # c. Create a function that takes two arguments - both of them arrays. 
 # Inside of the function, combine the arrays using the items from the first array as keys and the second array as values. 
